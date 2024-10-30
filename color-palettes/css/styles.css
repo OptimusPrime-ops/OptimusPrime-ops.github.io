@@ -1,0 +1,45 @@
+#p1head {
+    text-align: center;
+    font-family: cursive;
+}
+.p1div {
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p1c1 {
+    background-color: #845ec2;
+    color: orange;
+}
+#p1c2 {
+    background-color: #296073;
+    color: green;
+}
+#p1c3 {
+    background-color: #3596b5;
+    color: cyan;
+}
+#p1c4 {
+    background-color: #ADC5CF;
+    color: black;
+}
+#p2c1 {
+    background-color: #330036;
+    color: greenyellow;
+}
+#p2c2 {
+    background-color: #6C2F5B;
+    color: pink;
+}
+#p2c3 {
+    background-color: #2F394D;
+    color: gray;
+}
+#p2c4 {
+    background-color: #7B0909;
+    color: red;
+}
+#p2c5 {
+    background-color: #F8EEC7;
+    color: white;
+}
