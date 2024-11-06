@@ -1,0 +1,36 @@
+.single-column-1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.single-column-2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.single-column-3 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.single-column-1 p{
+    color: red;
+}
+.single-column-1 h3 {
+    color: blue;
+}
+.single-column-2 p{
+    color: rgb(207, 16, 207);
+}
+.single-column-2 h3 {
+    color: rgb(109, 107, 107);
+}
+.single-column-3 p{
+    color: red;
+}
+.single-column-3 h3 {
+    color: goldenrod;
+}
