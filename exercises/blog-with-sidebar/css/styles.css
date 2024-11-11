@@ -20,10 +20,10 @@ body {
     grid-area: sidebar;
 }
 #sidebar h2 {
-    background-color: orangered;
+    background-color: rgb(98, 15, 15);
     margin: 0px;
     padding: 12px;
-    color: gold;
+    color: goldenrod;
     font-size: 18px;
 }
 #sidebar ul {
