@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.three-columns {
+    display: grid;
+    grid-template-columns: 1fr 200px 550px 200px 1fr;
+    margin: 48px 0px;
+    grid-template-areas: 
+    ". left-sidebar main-area right-sidebar .";
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#column-1 {
+    margin-left: 24px;
+
+    /* setting the grid area to be left-sidebar */
+    grid-area: left-sidebar;
+}
+
+#column-2 {
+    padding: 24px 25px;
+    padding-bottom: 8px;
+    /* setting the grid area to be main-area */
+    grid-area: main-area;
+    background-color: gainsboro;
+}
+
+
+#column-3 {
+    margin-right: 0px;
+
+    /* setting the grid area to be right-sidebar */
+    grid-area: right-sidebar;
+}
+
+.three-columns h1 {
+    margin-top: 0px;
+}
+
+.three-columns h2,
+.three-columns h3 {
+    border-bottom: 2px solid #AAAAAA;
+    padding-bottom: 8px;
+}
+
+.three-columns ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.three-columns ul li {
+    padding: 4px 0px;
+}
+.three-columns ul a {
+    background-color: blue;
+    border-radius: 24px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+.sticky-sidebar {
+    position: sticky;
+    top: 24px;
+    
+    border-radius: 4px;
+    padding: 24px;
+}
+.sticky-sidebar ul a:hover {
+    background-color: rgb(172, 170, 170);
+    border-radius: 12px;
+}
+header, h1{
+    text-align: center;
+    color: greenyellow;
+}
