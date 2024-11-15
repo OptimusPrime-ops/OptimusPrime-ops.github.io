@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, red, blue);
+    padding: 48px;
+}
+
+
+/*
+    Media and text side-by-side implementation **************
+*/
+
+/*
+    As always, applying Flexbox to the container 
+    of the elements we want side by side is 
+    usually the way to go.
+
+    Remember that for a Flexbox row, the
+    align-items property can be used to 
+    align content vertically, in this case,
+    in the center of the container.
+*/
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+/* fake button styling */
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
