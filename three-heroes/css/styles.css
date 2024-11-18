@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/DC-Comics.jpg);
+    height: 105vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 8rem;
+        padding-left: 100px;
+    }
+    h4 {
+        font-size: 24px;
+        margin: 0px;
+        color: rgb(232, 254, 88);
+        display: inline-block;
+        background-color: black;
+        border-radius: 15%;
+    }
+    a {
+        font-size: 24px;
+        display: inline-block;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+    }
+    color: yellow;
+    text-align: center;
+}
+
+#hero-2 {
+    background-image: url(../images/Marvel-Comics.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 60px;
+    h2 {
+        font-size: 72px;
+        margin-bottom: 36px;
+        color: red;
+    }
+    h4 {
+        font-size: 24px;
+        margin: 0px;
+        color: rgb(121, 217, 255);
+        background-color: rgb(255, 0, 0);
+    }
+    a {
+        font-size: 24px;
+        display: inline-block;
+        background-color: #96da10;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+    }
+}
+
+#hero-3 {
+    background-image: url(../images/Invincible.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 60px;
+    h2 {
+        font-size: 72px;
+        margin-bottom: 36px;
+        color: yellow;
+    background-color: rgb(41, 247, 247);
+    }
+    h4 {
+        font-size: 24px;
+        margin: 0px;
+        color: yellow;
+    background-color: rgb(27, 255, 255);
+    }
+    a {
+        font-size: 24px;
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+    }
+}
