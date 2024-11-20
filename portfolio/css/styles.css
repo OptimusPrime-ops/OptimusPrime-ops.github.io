@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+#hero {
+    background-image: url(../images/DrawHouse_EthanJones_Final.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 60px;
+    h1 {
+        font-size: 72px;
+        margin-bottom: 36px;
+        color: goldenrod;
+    }
+    h2 {
+        font-size: 24px;
+        margin: 0px;
+        color: goldenrod;
+    }
+    
+}
+
+#gallery {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.cards {
+    a {
+        font-size: 24px;
+        display: inline-block;
+        background-color: #bc8c26;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+    }
+}
+
+.horizontal-gallery {
+    background-color: rgb(207, 192, 255);
+    border: 10px solid rgb(244, 97, 97);
+    columns: 3 auto;
+    column-gap: 24px;
+    img {
+        width: 100%;
+        margin-bottom: 24px;
+        border: 10px ridge gold;
+    }
+}
