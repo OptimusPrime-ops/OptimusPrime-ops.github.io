@@ -4,7 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: antiquewhite;
+    background-color: wheat;
 }
 
 #hero {
@@ -36,6 +36,10 @@ body {
     text-align: center;
 }
 
+#gallery h1 {
+    
+    font-weight: bold;
+}
 .cards {
     a {
         font-size: 24px;
@@ -50,7 +54,7 @@ body {
 
 .horizontal-gallery {
     background-color: rgb(207, 192, 255);
-    border: 10px solid rgb(244, 97, 97);
+    border: 10px solid rgb(244, 180, 97);
     columns: 3 auto;
     column-gap: 24px;
     img {
