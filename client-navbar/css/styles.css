@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.contain {
+    max-width: 1440px;
+    width: 80vw;
+    margin: 0px auto;
+    
+}
+#navbar {
+    background: linear-gradient(to bottom, #99aa58,#768853,#4f452b);
+    top: 0px;
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: #285687;
+        padding: 24px;
+    }
+    .btn {
+        background-color: burlywood;
+        color: #2A3663;
+        border-radius: 36px;
+        padding: 16px 24px;
+        font-size: 20px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;                                                                           
+    }
+    h1 {
+        color: #aae533;
+    }
+}
+
+#navbar-2 {
+    background: linear-gradient(to bottom, #FFD09B,#FBD288,#FFF7D1);
+    top: 0px;
+    font-weight: bold;
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: #FF4545;
+        padding: 24px;
+    }
+    .btn {
+        background-color: #FF9C73;
+        color: #FF4545;
+        border-radius: 36px;
+        padding: 16px 24px;
+        font-size: 25px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: right;                                                                           
+    }
+    h1 {
+        color: #FF4545;
+    }
+}
+
+#top-navbar-3 {
+    background: linear-gradient(to bottom, #FFD09B,#FBD288,#FFF7D1);
+    top: 0px;
+    font-weight: bold;
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: #FF4545;
+        padding: 24px;
+    }
+    .btn {
+        background-color: #FF9C73;
+        color: #FF4545;
+        border-radius: 36px;
+        padding: 16px 24px;
+        font-size: 25px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: right;                                                                           
+    }
+    h1 {
+        color: #FF4545;
+    }
+}
+
+#bottom-navbar-3 {
+        background: linear-gradient(to bottom, #FFD09B,#FBD288,#FFF7D1);
+        top: 0px;
+        font-weight: bold;
+        .contain {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+            color: #FF4545;
+            padding: 24px;
+        }
+        .btn {
+            background-color: #FF9C73;
+            color: #FF4545;
+            border-radius: 36px;
+            padding: 16px 24px;
+            font-size: 25px;
+            font-weight: bold;
+            min-width: 150px;
+            text-align: right;                                                                           
+        }
+        h1 {
+            color: #FF4545;
+        }
+    }
