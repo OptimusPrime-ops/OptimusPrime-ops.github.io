@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    border: 12px groove goldenrod;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: goldenrod;
+    padding: 24px;
+}
+nav > .logo {
+    font-size: 46px;
+    margin-right: auto;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    box-shadow: -2px 2px 5px #5558;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-150px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s
+    ;
+}
+
+.dropdown-menu a {
+    width: 100%;
+    min-width: 100%;
+    background-color: goldenrod;
+}
+
+.dropdown-menu:hover a, span{
+    color: gold;
+}
+
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#hero {
+    background-image: url(../images/dog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero p {
+    background-color: orange;
+    font-size: 50px;
+    border: 5px solid goldenrod;
+    border-radius: 20px;
+}
+
+
+#centered-column-1 {
+    width: 90vw;
+    margin: 48px auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-1 {
+
+    border: 2px solid #daffdb;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceccaa;
+    background: linear-gradient(-50deg, #fff8db, #fffbf7, #fbd882);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1 {
+    text-align: center;
+}
+
+#centered-column-2 {
+    width: 90vw;
+    margin: 48px auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-2 {
+    border: 2px solid #f99999;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceccaa;
+    background: linear-gradient(-50deg, #ffad39, #d79451, #fb8282);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 h1 {
+    text-align: center;
+    color: red;
+}
+
+#centered-column-3 {
+    width: 90vw;
+    margin: 48px auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-3 {
+    border: 2px solid #ffee37;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceccaa;
+    background: linear-gradient(-50deg, #ffff39, #d7af51, #f3ef88);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-3 p {
+    text-align: center;
+}
