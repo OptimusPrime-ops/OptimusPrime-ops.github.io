@@ -58,6 +58,7 @@ nav > .logo {
     transform: translateY(0px);
 }
 
+
 #hero {
     background-image: url(../images/dog.jpg);
     height: 100vh;
@@ -67,7 +68,7 @@ nav > .logo {
     justify-content: center;
     align-items: center;
 }
-#hero p {
+#hero h1 {
     background-color: orange;
     font-size: 50px;
     border: 5px solid goldenrod;
@@ -83,6 +84,7 @@ nav > .logo {
     display: flex;
     gap: 36px;
     justify-content: center;
+    text-align: center;
 }
 
 .card-1 {
@@ -108,6 +110,7 @@ nav > .logo {
     display: flex;
     gap: 36px;
     justify-content: center;
+    text-align: center;
 }
 
 .card-2 {
@@ -133,6 +136,7 @@ nav > .logo {
     display: flex;
     gap: 36px;
     justify-content: center;
+    text-align: center;
 }
 
 .card-3 {
@@ -147,4 +151,29 @@ nav > .logo {
 
 .card-3 p {
     text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .card-1, .card-2, .card-3 {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    img {
+        width: 100%;
+    }
 }
