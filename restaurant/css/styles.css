@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(138, 211, 28);
+    display: flex;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(175, 142, 22);
+    font-size: 24px;
+    padding: 12px;
+    &:hover {
+        color: green;
+        text-shadow: 
+        1px 1px 2px rgb(18, 182, 18), 
+        0 0 1em rgb(177, 232, 24), 
+        0 0 0.2em rgb(132, 238, 51);
+    }
+}
+
+img {
+    width: 300px;
+}
+
+span {
+    border: 2px solid green;
+    border-radius: 36px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: -2px 2px 5px #5558;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-150px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s
+    ;
+    
+}
