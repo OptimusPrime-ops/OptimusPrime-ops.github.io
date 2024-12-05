@@ -1,21 +1,37 @@
+@font-face {
+    font-family: 'bungee_shade';
+    src: url('../fonts/bungeeshade-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bungeeshade-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    background-color: lightgreen;
 }
 
 nav {
     background-color: rgb(138, 211, 28);
     display: flex;
     align-items: center;
+    padding: 12px 16px;
+}
+nav > .logo {
+    margin-right: auto;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
 nav a {
     text-decoration: none;
-    color: rgb(175, 142, 22);
-    font-size: 24px;
-    padding: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 24px;
+    font-family: "bungee_shade";
     &:hover {
         color: green;
         text-shadow: 
@@ -32,22 +48,112 @@ img {
 span {
     border: 2px solid green;
     border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    &:hover {
+        background-color: lawngreen;
+    }
 }
 
 .dropdown-container {
     position: relative;
 }
-
 .dropdown-menu {
     position: absolute;
     box-shadow: -2px 2px 5px #5558;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-150px);
+    transform: translateY(-10px);
     transition: 
         opacity 0.5s,
         visibility 0.5s,
-        transform 0.5s
+        transform 1.5s
     ;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#hero-1 {
+    background-image: url(../images/TT.jpg);
+    height: 100vh;
+    background-color: green;
+    color: lightgreen;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 8rem;
+        padding-left: 100px;
+    }
+}
+
+.menu {
+    flex: 300px;
+    margin: 24px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;
+        transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+    }
+}
+
+.menu-container {
+    border: 3px solid rgb(144, 238, 186);
+    width: 90vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    background-color: burlywood;
+    border-radius: 12px;
+    font-size: 36px;
     
+}
+
+.menu-container:hover a{
+    background-color: rgb(127, 255, 146);
+    box-shadow: 4px 4px 4px #0003;
+    transform: translateY(-4px);
+}
+
+@media screen and (max-width: 480px) {
+    nav, #logo{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    nav a {
+        padding: 0px;
+        margin: 24px;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        box-shadow: -2px 2px 5px #5558;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(10px);
+        transition: 
+            opacity 0.5s,
+            visibility 0.5s,
+            transform 1.5s
+        ;
+    }
+    #hero-1 {
+        align-items: center;
+    }
 }
