@@ -115,6 +115,10 @@ span {
     }
 }
 
+.menu img {
+    border: 2px solid lightcyan;
+}
+
 .menu-container {
     border: 2px solid rgb(58, 213, 19);
     width: 50vw;
